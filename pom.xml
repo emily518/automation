@@ -7,7 +7,7 @@
 	<name>uitest</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<testng.xml.filepath>all</testng.xml.filepath>
+		<testng.xml.filepath>testng.xml</testng.xml.filepath>
 	</properties>
 	<dependencies>
 		<dependency>
