@@ -1,0 +1,22 @@
+<project name="jje-ui-test" basedir=".">
+	<property name="lib.dir" value="lib" />
+	<path id="test.classpath">
+		<fileset dir="${lib.dir}" includes="*.jar" />
+	</path>	
+	<target name="transform" depends="clear">
+		<xslt in="${basedir}/target/surefire-reports/testng-results.xml" style="${basedir}/target/surefire-reports/testng-results.xsl"
+			out="${basedir}/target/surefire-reports/Report.html">
+			<param name="testNgXslt.outputDir" expression="${basedir}/target/surefire-reports/"/>
+			<classpath refid="test.classpath" />
+		</xslt>
+	</target>
+	<target name="clear" description="清理构建">
+		<echo message="……清理历史构建……"/>
+			<delete>
+				<fileset dir="${basedir}/target/surefire-reports/">
+	  		      <exclude name="**/*.xsl" />
+				  <exclude name="**/*.xml" />
+				</fileset>
+			</delete>
+	</target>
+</project>

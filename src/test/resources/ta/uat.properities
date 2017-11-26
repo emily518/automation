@@ -1,0 +1,41 @@
+﻿#The root of Environment
+Selenium.EnvironmentRoot=/src/test/resources/ta/uat/env/
+#The Environment folder
+Selenium.ProperitiesExt=env
+#The root of datadriven 
+Selenium.DatadrivenRoot=./src/test/resources/ta/uat/datadriven/
+#The root of autoit3
+Selenium.auto3=/src/test/resources/ta/autoit/
+#The timeout of autoit3
+Selenium.auto3.timeout=120
+#The time of waiting
+Selenium.waittime=120
+Selenium.maxLoadTime=200
+#The pltTimeout
+Selenium.pltimeout=200
+# windows 
+Selenium.sptimeout=200
+#Set the browser: ie or firefox or chrome
+Selenium.Explorer=chrome
+#The path of resources
+Selenium.resource=/src/test/resources
+# 
+Selenium.tmp=D:\\TA\\tmp\\
+#Testlink
+testlink_devkey=21232f297a57a5a743894a0e4a801fc3
+testlink_xmlrpc_url=http://192.168.64.163/testlink/lib/api/xmlrpc.php
+#ActiveScreemShot
+Testng.ActiveScreemShot.tag=0
+#ActiveScreemShot
+Testng.ActiveScreemShot.snapInterval=1
+#ActiveScreemShot
+Testng.ActiveScreemShot.outputLocation =D:\\TA\\errshot\\
+#ActiveScreemShot
+#localiַ
+Testng.ActiveScreemShot.viewLocation=http://localip/errshot/
+#ActiveScreemShot
+Testng.ActiveScreemShot.replaySpeed =2
+#ActiveScreemShot
+Testng.ActiveScreemShot.replayIndefinitely=true
+#commons logging
+#java.util.logging.config.file=d:/logging.txt

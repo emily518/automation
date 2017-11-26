@@ -1,0 +1,7 @@
+*.class
+*.png
+*.prefs
+*.css
+*.js
+*.au3
+/target/
